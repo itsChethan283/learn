@@ -1,0 +1,18 @@
+[project]
+name = "learn"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "google-genai>=1.73.1",
+    "langchain-openrouter>=0.2.1",
+    "mistralai>=2.4.0",
+    "openai>=2.32.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "AgenticRAGApp",
+]
